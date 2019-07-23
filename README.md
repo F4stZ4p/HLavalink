@@ -3,10 +3,15 @@ Lavalink on heroku, in a nutshell
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/F4stZ4p/Radiowo-Lavalink)
 
-## If you are want to run this:
+## If you want to run this:
+
+## Easy Install
+- [x] Click the button "Deploy to Heroku" above to install
+
+## The hard way
 - [x] Create an application on Heroku
 - [x] Add Java to buildpacks
-- [x] Fork this repo and deploy it to Heroku or press the button above
+- [x] Fork this repo and deploy it to Heroku
 
 - [x] Do not forget to edit config file
 
