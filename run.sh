@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Lavalink on Heroku by F4stZ4p
-echo Credit to diniboy for Lavalink init script. L14
+echo Credit to diniboy for Lavalink init script
 
 echo Downloading latest release of Lavalink...
 curl -s https://api.github.com/repos/Frederikam/Lavalink/releases/latest \
