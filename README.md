@@ -5,10 +5,10 @@ Lavalink on heroku, in a nutshell
 
 ## If you want to run this:
 
-## Easy Install
+### Easy Install
 - [x] Click the button "Deploy to Heroku" above to install
 
-## The hard way
+### The hard way
 - [x] Create an application on Heroku
 - [x] Add Java to buildpacks
 - [x] Fork this repo and deploy it to Heroku
