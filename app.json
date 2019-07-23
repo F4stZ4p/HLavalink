@@ -1,0 +1,13 @@
+{
+
+  "name": "Radiowo Lavalink - Lavalink on Heroku",
+  "description": "Set up your Lavalink server on Heroku easily",
+  "repository": "https://github.com/F4stZ4p/Radiowo-Lavalink",
+  "logo": "https://i.imgur.com/jojMaQJ.png",
+  "keywords": [
+      "heroku", 
+      "lavalink", 
+      "java"
+  ]
+
+}
