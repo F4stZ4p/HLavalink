@@ -13,11 +13,9 @@ Lavalink on heroku, in a nutshell
 - [x] Add Java to buildpacks
 - [x] Fork this repo and deploy it to Heroku
 
-- [x] Do not forget to edit config file
-
 ## Important notes:
-- [x] To run this 24/7, you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes
-- [x] For example, if your app is named `test-lavalink` then make HTTP request to `http://test-lavalink.herokuapp.com`
+- [x] To run this 24/7, you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes. For example, if your app is named `test-lavalink` then make HTTP request to `http://test-lavalink.herokuapp.com`
+- [x] Do not forget to edit config file (application.yml)
 
 # Connecting
 - [x] Lavalink's port will be always 80, DO NOT edit port in application.yml!
