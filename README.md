@@ -6,7 +6,9 @@ Lavalink on heroku, in a nutshell
 ## If you are want to run this:
 - [x] Create an application on Heroku
 - [x] Add Java to buildpacks
-- [x] Fork this repo and deploy it to heroku, do not forget to edit config file
+- [x] Fork this repo and deploy it to Heroku or press the button above
+
+- [x] Do not forget to edit config file
 
 ## Important notes:
 - [x] To run this 24/7, you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes
