@@ -1,1 +1,1 @@
-web: python bootstrap.py
+web: python3 bootstrap.py
