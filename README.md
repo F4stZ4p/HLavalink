@@ -29,7 +29,7 @@
 # Examples
 
 ## Python
-### - [x] Wavelink
+### Wavelink
 ```python
 async def initiate_nodes(self):
     nodes = {"MAIN": 
