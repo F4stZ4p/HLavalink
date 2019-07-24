@@ -50,3 +50,19 @@ async def initiate_nodes(self):
     for n in nodes.values():
         # ...
 ```
+- [x] **Lavalink.py** | **[Repo Link](https://github.com/Devoxin/Lavalink.py)**
+```python
+async def initiate_nodes(self):
+    self.bot.lavalink = lavalink.Client(
+        self.bot.user.id
+    )
+    
+    self.bot.lavalink.add_node(
+        "test-lavalink.herokuapp.com", 
+        80, 
+        "youshallnotpass", 
+        "eu", 
+        "default-node"
+    )  # Host, Port, Password, Region, Name
+    # ...
+```
