@@ -26,7 +26,7 @@
 
 # Connecting
 - [x] Lavalink's port will be always 80, DO NOT edit port in application.yml!
-- [x] Password is in `PASSWORD` environment variable, else it is `youshallnotpass`
+- [x] Password is in `PASSWORD` environment variable, if variable does not exist, it is `youshallnotpass`
 
 # Examples
 
