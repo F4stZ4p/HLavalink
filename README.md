@@ -1,4 +1,4 @@
-# Radiowo-Lavalink
+# HLavalink
 Lavalink on heroku, in a nutshell
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/F4stZ4p/Radiowo-Lavalink)
