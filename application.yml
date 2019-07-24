@@ -1,5 +1,5 @@
-server: # REST and WS server
-  port: 2333
+server:
+  port: DYNAMICPORT
   address: 0.0.0.0
 spring:
   main:
@@ -36,7 +36,7 @@ sentry:
 logging:
   file:
     max-history: 30
-    max-size: 1GB
+    max-size: 100MB
   path: ./logs/
 
   level:
