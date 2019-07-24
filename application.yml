@@ -6,7 +6,7 @@ spring:
     banner-mode: log
 lavalink:
   server:
-    password: "youshallnotpass"
+    password: "DYNAMICPASSWORD"
     sources:
       youtube: true
       bandcamp: true
@@ -29,9 +29,6 @@ metrics:
 
 sentry:
   dsn: ""
-#  tags:
-#    some_key: some_value
-#    another_key: another_value
 
 logging:
   file:
