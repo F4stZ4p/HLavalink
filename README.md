@@ -17,6 +17,7 @@
 # Important notes:
 - [x] To run this 24/7, you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes. For example, if your app is named `test-lavalink` then make HTTP request to `http://test-lavalink.herokuapp.com`
 - [x] Do not forget to edit config file (application.yml)
+- [x] Do not forget to set your password (`PASSWORD` environment variable)
 
 # Advantages
 - [x] Uses **latest** release of Lavalink on (re)start
@@ -25,6 +26,7 @@
 
 # Connecting
 - [x] Lavalink's port will be always 80, DO NOT edit port in application.yml!
+- [x] Password is in `PASSWORD` environment variable, else it is `youshallnotpass`
 
 # Examples
 
