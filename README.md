@@ -29,7 +29,9 @@
 # Examples
 
 ## Python
-### Wavelink
+### discord.py
+
+- [x] Wavelink **[Repo Link](https://github.com/EvieePy/Wavelink)**
 ```python
 async def initiate_nodes(self):
     nodes = {"MAIN": 
