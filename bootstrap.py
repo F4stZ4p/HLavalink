@@ -6,7 +6,7 @@ Credit to diniboy for sed script
 from os import system, environ
 
 
-class LavalinkBoostrap:
+class LavalinkBootstrap:
 
     """
     Class we're using to get Lavalink working on Heroku
@@ -131,4 +131,4 @@ if __name__ == "__main__":
     Starts our instance
     """
 
-    LavalinkBoostrap().run()
+    LavalinkBootstrap().run()
