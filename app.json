@@ -8,7 +8,7 @@
       "heroku", 
       "lavalink", 
       "java"
-  ]
+  ],
   "buildpacks": [
     {
       "url": "heroku/java"
