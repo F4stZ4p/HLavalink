@@ -1,8 +1,10 @@
 """
 Lavalink on Heroku boostrap script
+Credit to diniboy for sed script
 """
 
 from os import system, environ
+
 
 class LavalinkBoostrap:
 
