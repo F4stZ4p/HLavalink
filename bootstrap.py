@@ -1,5 +1,5 @@
 """
-Lavalink on Heroku boostrap script
+Lavalink on Heroku bootstrap script
 Credit to diniboy for sed script
 """
 
