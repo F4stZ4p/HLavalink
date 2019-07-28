@@ -29,7 +29,7 @@ class LavalinkBootstrap:
             "ADDITIONAL_JAVA_OPTIONS"
         ) # Heroku provides basic Java configuration based on dyno size, no need in limiting memory
     
-        self.run_command = f"java -jar Lavalink.jar {self._additional_options}"
+        self.run_command = f"java -jar Lavalink.jar {self._additional_options}" # User-provided config, will override heroku's
 
     def replace_password_and_port(self):
 
