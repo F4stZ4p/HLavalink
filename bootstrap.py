@@ -27,7 +27,7 @@ class LavalinkBootstrap:
         
         self._additional_options = environ.get(
             "ADDITIONAL_JAVA_OPTIONS"
-        ) # Heroku provides basic Java configuration based on dyno size
+        ) # Heroku provides basic Java configuration based on dyno size, no need in limiting memory
     
         self.run_command = f"java -jar Lavalink.jar {self._additional_options}"
 
