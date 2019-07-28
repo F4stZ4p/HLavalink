@@ -66,3 +66,7 @@ async def initiate_nodes(self):
     )  # Host, Port, Password, Region, Name
     # ...
 ```
+
+# Advanced
+### If you don't like default Heroku options for Java:
+- [x] You can set custom Java flags in `ADDITIONAL_JAVA_OPTIONS` variable. They **override** default config. **Do not** do this if you don't know what you're doing
