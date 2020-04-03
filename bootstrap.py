@@ -3,7 +3,7 @@ Lavalink on Heroku bootstrap script
 Credit to diniboy for sed script
 """
 
-from os import system, environ
+from os import system, environ, popen
 
 
 class LavalinkBootstrap:
@@ -11,15 +11,25 @@ class LavalinkBootstrap:
     """
     Class we're using to get Lavalink working on Heroku
     """
+    
+    def prepare_version_number(self):
+        
+        self._version_number = popen(
+            
+            """curl --silent "https://api.github.com/repos/Frederikam/Lavalink/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")'"""
+          
+        ).read().strip()
 
     def __init__(self):
 
         """
         Doing important stuff here
         """
+        
+        self.prepare_version_number() # Fixes #1
+        self.download_command = f"curl -o Lavalink.jar https://github.com/Frederikam/Lavalink/releases/download/{self._version_number}/Lavalink.jar"
 
-        self.download_command = "curl -s https://api.github.com/repos/Frederikam/Lavalink/releases/latest | grep browser_download_url | cut -d '\"' -f 4 | wget -qi -"
-
+        
         self.replace_port_command = 'sed -i "s|DYNAMICPORT|$PORT|" application.yml'
 
         self.replace_password_command = 'sed -i "s|DYNAMICPASSWORD|$PASSWORD|" application.yml'
