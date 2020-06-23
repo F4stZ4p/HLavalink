@@ -70,3 +70,4 @@ async def initiate_nodes(self):
 # Advanced
 ### If you don't like default Heroku options for Java:
 - [x] You can set custom Java flags in `ADDITIONAL_JAVA_OPTIONS` variable. They **override** default config. **Do not** do this if you don't know what you're doing
+- [x] You can opt out of using developer Lavalink version. To set this, you need to create `USE_DEV` variable containing `n`, `no` or `0` value
