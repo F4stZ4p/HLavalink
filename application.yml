@@ -1,12 +1,12 @@
 server:
-  port: DYNAMICPORT
+  port: 80
   address: 0.0.0.0
 spring:
   main:
     banner-mode: log
 lavalink:
   server:
-    password: "DYNAMICPASSWORD"
+    password: "123456"
     sources:
       youtube: true
       bandcamp: true
