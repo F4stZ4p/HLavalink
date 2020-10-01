@@ -16,7 +16,7 @@ class LavalinkBootstrap:
         
         self._version_number = popen(
             
-            """curl --silent "https://api.github.com/repos/Frederikam/Lavalink/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")'"""
+            """curl --silent "https://github.com/natanbc/andesite/releases/download/0.18.9/andesite-node-0.18.9-all.jar" | grep -Po '"tag_name": "\K.*?(?=")'"""
           
         ).read().strip()
 
