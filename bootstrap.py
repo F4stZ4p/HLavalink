@@ -12,7 +12,7 @@ class LavalinkBootstrap:
     Class we're using to get Lavalink working on Heroku
     """
     
-    def prepare_version_number(self):
+    def prepare_version_number(self) -> None:
         
         self._version_number = popen(
             
@@ -28,7 +28,7 @@ class LavalinkBootstrap:
         
         self.prepare_version_number() # Fixes #1
         
-        self.use_dev_lavalink = True if str(environ.get("USE_DEV_LAVALINK")).lower() not in ("no", "0", "n") else False
+        self.use_dev_lavalink = environ.get("USE_DEV_LAVALINK").lower() not in ("no", "0", "n")
         if self.use_dev_lavalink:
             
             print("[INFO] Using developer Lavalink version")
@@ -47,7 +47,7 @@ class LavalinkBootstrap:
     
         self.run_command = f"java -jar Lavalink.jar {self._additional_options}" # User-provided config, will override heroku's
 
-    def replace_password_and_port(self):
+    def replace_password_and_port(self) -> None:
 
         """
         Replacing password and port in application.yml
@@ -92,7 +92,7 @@ class LavalinkBootstrap:
                 "[INFO] Done. Config is ready now"
             )
 
-    def download(self):
+    def download(self) -> None:
 
         """
         Downloads latest release of Lavalink
@@ -120,7 +120,7 @@ class LavalinkBootstrap:
                 "[INFO] Lavalink download OK"
             )
     
-    def run(self):
+    def run(self) -> None:
 
         """
         Runs Lavalink instance
